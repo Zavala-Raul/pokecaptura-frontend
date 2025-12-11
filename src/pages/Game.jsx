@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './Game.css'; 
 
-const BACKEND_URL = "https://pokecaptura-backend-578018225878.europe-west1.run.app";
+const BACKEND_URL = "https://pokecaptura-backend-578018225878.europe-west1.run.app/api";
 
 function Game() {
     const [pokemon, setPokemon] = useState(null);
