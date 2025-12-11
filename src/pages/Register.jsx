@@ -4,7 +4,7 @@ import './register.css';
 import { useNavigate } from 'react-router-dom'
 import loginIcon from '../assets/login-icon.png';
 
-const API_URL = 'http://localhost:4000/api';
+const API_URL = 'https://pokecaptura-backend-578018225878.europe-west1.run.app';
 
 function Register()
 {

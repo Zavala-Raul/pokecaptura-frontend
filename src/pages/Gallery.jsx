@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './Gallery.css'; 
 
-const API_URL = "http://localhost:4000/api";
+const API_URL = "https://pokecaptura-backend-578018225878.europe-west1.run.app";
 
 const TypeBadge = ({ type }) => {
     if (!type) return null; 
